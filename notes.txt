@@ -1,0 +1,28 @@
+Liste:
+  myList.extend(anotherListe):
+    concatene deux list entre elle 
+  myList.append(element):
+    classique ajoute un element dans la list
+  myList.insert(index, element):
+    insert element a l'index index en poussant vers la droite les autres elements
+  myList.remove(element);
+    retire element
+  myList.clear();
+     vide la liste
+  myList.pop():
+    retire la derniere element de la list
+  myList.index(element):
+    renvoie l'index de element dans la liste une erreur sinon
+  myList.count(element): 
+    compte le nombre d'element dans la list
+  myList.reverse:
+    reverse la list
+  myList.copy():
+    renvoie une copie de la liste
+
+Tuples: 
+  un tuples est assez similaire a une Liste
+
+  Cree un tuples:
+    myTuple = (x, y)
+    l'avantage des tuples est qu'il sont immutable 
