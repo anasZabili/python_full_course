@@ -26,3 +26,10 @@ Tuples:
   Cree un tuples:
     myTuple = (x, y)
     l'avantage des tuples est qu'il sont immutable 
+
+Expression booleans
+  && = and
+  || = or
+  !x = not(x)
+
+Dictionnaries
