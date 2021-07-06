@@ -33,3 +33,27 @@ Expression booleans
   !x = not(x)
 
 Dictionnaries
+  un dictionnaire est un pair clef valeur (une map en gros)
+  un dico ce cree de la meme façon qu'un objet en js
+  monthConversion = {
+  "Jan": "January",
+  "Feb": "February",
+  "Mar": "March",
+  "Apr": "April",
+  "May": "May",
+  "Jun": "June",
+  "Jul": "July",
+  "Aug": "August",
+  "Sep": "September",
+  "Oct": "October",
+  "Nov": "November",
+  "Dec": "December"
+  }
+
+  acceder a une valeur :
+    -monthConversion["Feb"]
+    monthConversion.get("Feb")
+  
+  definir une valeur par default si la clef n'est pas trouvé :
+    print(monthConversion.get("Augu", "Not a valid key"))
+    renvoie "not a valid key" si la clef n'est pas trouvé
