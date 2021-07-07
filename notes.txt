@@ -57,3 +57,63 @@ Dictionnaries
   definir une valeur par default si la clef n'est pas trouvé :
     print(monthConversion.get("Augu", "Not a valid key"))
     renvoie "not a valid key" si la clef n'est pas trouvé
+
+
+  For:
+    louper a travers une string
+
+    for letter in "Giraffe Academy":
+      print(letter)
+
+    a travers un array
+
+    for name in tab:
+      print(name)
+
+  Exponent fonction: 
+    print(2**3)  
+
+  IF IN (super bien):
+    if letter in "AEIOUaeiou":
+
+
+  Try Expect:
+    try:
+      number = int(input("Enter a number: "))
+      print(number)
+    except ZeroDivisionError as err:
+      print(err)
+    except ValueError:
+      print("Please enter a number")
+    except:
+      print("dont know what the error is but i catch it right there")
+
+    except sans argument catch toute les erreurs
+
+  Fichier: 
+    Ouverture:  
+      file = open("test.txt", 'r')
+    
+    Mode d'ouverture: 
+      -r(read)
+      -w(write)
+      -a(append)
+      -r+(r + w)
+
+    Verifier si un fichier peut etre lu:
+      file.readable()
+    
+    Lecture: 
+      print(file.read())
+        lit tout le fichier
+
+      file.readline()
+        lit le fichier ligne par ligne
+      
+      file..readlines() (super cool)
+        lit tout le fichier et place chaque ligne dans un index de tableau
+
+    Ecriture: 
+      
+
+

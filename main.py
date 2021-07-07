@@ -1,16 +1,10 @@
-monthConversion = {
-  "Jan": "January",
-  "Feb": "February",
-  "Mar": "March",
-  "Apr": "April",
-  "May": "May",
-  "Jun": "June",
-  "Jul": "July",
-  "Aug": "August",
-  "Sep": "September",
-  "Oct": "October",
-  "Nov": "November",
-  "Dec": "December"
-}
+# r/w/a/r+(r + w)
+employeeFile = open("test2.txt", 'w')
+# print(employeeFile.readable())
+# # print(employeeFile.read())
+# print(employeeFile.readlines())
 
-print(monthConversion.get("Augu", "Not a valid key"))
+employeeFile.write("Karim - cordonnier \n")
+# print(employeeFile.read())
+
+employeeFile.close()
