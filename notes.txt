@@ -113,7 +113,9 @@ Dictionnaries
       file..readlines() (super cool)
         lit tout le fichier et place chaque ligne dans un index de tableau
 
-    Ecriture: 
+  Heritage class:
+    pour qu'un class herite du autre la syntax:
+      class MyCLass(ParentClass):      
       
 
 

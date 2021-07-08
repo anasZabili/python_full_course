@@ -1,10 +1,9 @@
-# r/w/a/r+(r + w)
-employeeFile = open("test2.txt", 'w')
-# print(employeeFile.readable())
-# # print(employeeFile.read())
-# print(employeeFile.readlines())
+from Student import Student
 
-employeeFile.write("Karim - cordonnier \n")
-# print(employeeFile.read())
+student1 = Student('Anas', "Cs", 3.1, False)
 
-employeeFile.close()
+print(student1)
+
+student1.changeNameToDidier()
+
+print(student1.name)
